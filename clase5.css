@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-around;
+    color: antiquewhite;
+   
+}
+footer{
+
+    background-color: cadetblue;
+    position: relative;
+    top: 100px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #000000;
+    font-size: medium;
+    text-align: justify;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+}
+body{
+    background-image: url(https://us.123rf.com/450wm/apostrophe/apostrophe1508/apostrophe150800032/44229374-resumen-azul-verdoso-oscuro-fondo-azul-con-formas-triangulares-y-diamante-en-capas-los-%C3%A1ngulos-de.jpg);
+    background-size: cover;
+}
+.titulo{
+    text-align: center;
+    color: hwb(0 100% 0%);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+
+}
+.curiosidades{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+img{
+    margin-left: 600px;
+}
+i{
+    font-size: 75px;
+}
+
+li{
+    width: 200px;
+    font-size: larger;
+}
+
+nav{
+    width: 1880px;
+    background-color: blueviolet;
+    position: fixed;
+    z-index: 2;
+    padding: 20px;
+}
+
+main{
+    position: relative;
+    top: 100px;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+.articulo{
+    box-sizing: border-box;
+    width: 1600px;
+    background-color: white;
+    border: 10px solid rgb(206, 35, 35);
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.agregado{
+    box-sizing: border-box;
+    width: 400px;
+    background-color: white;
+    border: 10px solid rgb(206, 35, 35);
+    margin: 10px;
+    padding: 20px;
+}
+
+.arttitle{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px; 
+}
+
+.juventud{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.textoj{
+    margin: 10px;
+    color: white;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.caja{
+    border: 5px solid black;
+}
+
+.grillabuelo{
+    display: flex;
+    justify-content: center;
+}
+
+.uno{
+    background-image: url(https://lsco.scene7.com/is/image/lsco/A34940013-back-pdp-ld?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=1.25,0.6,8&wid=2000&hei=1800);
+    background-size: cover;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.cinco{
+    background-image: url(https://cdn.quicq.io/sanwin/product/8356546430-2873128577833-1.jpg);
+    background-size: cover;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.dos{
+    background-image: url(https://www.digitalsport.com.ar/files/products/5ced9f95d3d8e-461392-500x500.jpg);
+    background-size: cover;
+}
+
+.seis{
+    background-image: url(https://xlshop.vtexassets.com/arquivos/ids/203203/XV2SKR17C0266.jpg?v=638085396460970000);
+    background-size: cover;
+}
+
+.tres{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU1mD9m-stXnU2BmJUsZ2VVX7ExavgfeaCFFQTkK7vnHptb9H76gEcEIk_lwGeE_eJXKk&usqp=CAU);
+    background-size: cover;
+    grid-row: span 2;
+}
+
+.siete{
+    background-image: url(https://tutopiaplace.com.ar/wp-content/uploads/2022/06/goods_02_436158-PhotoRoom-40.png);
+    background-size: cover;
+    grid-row: span 2;
+}
+
+.cuatro{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_952071-MLA71948577636_092023-O.webp);
+    background-size: cover;
+    grid-column: span 2;
+}
+
+.ocho{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6cPzDDGxxFUp3gnXLvnkesdEQODfeS8UJ0w&usqp=CAU);
+    grid-column: span 2; 
+    background-size: cover;
+    
+}
+
+.nueve{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7RzjQ1FF3j-72UuYWs1Edjyc6s6B5uL969w&usqp=CAU);
+    background-size: cover;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.diez{
+    background-image: url(https://falabella.scene7.com/is/image/Falabella/gsc_120662308_2756545_1?wid=800&hei=800&qlt=70);
+    background-size: cover;
+
+}
+
+.once{
+    background-image: url(https://acdn.mitiendanube.com/stores/095/822/products/img_79381-1351405ab22b5ba8ee16478217521777-640-0.jpg);
+    background-size: cover;
+    grid-row: span 2;
+
+}
+
+.doce{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_908121-MLA46383584717_062021-O.webp);
+    background-size: cover;
+    grid-row: span 2;    grid-column: span 2;
+}
+
+.ebarra:hover{
+    font-size: 25px;
+}
